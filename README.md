@@ -1,3 +1,42 @@
-Gabrielle is an AI Platform Engineer built using Python and AWS Bedrock.
+# Gabrielle
 
-The goal of this project is to document the evolution of an AI engineer—from simple infrastructure reviews to autonomous platform engineering workflows.
+AI Infrastructure Engineering Assistant
+
+Current Version
+
+v0.1.0
+
+Purpose
+
+Gabrielle is an experimental AI engineering assistant focused on cloud infrastructure, Terraform, AWS Bedrock, and infrastructure architecture reviews.
+
+Current Features
+
+✓ AWS Bedrock integration
+✓ Terraform review
+✓ Principal Engineer reasoning
+✓ Modular architecture
+
+Roadmap
+
+v0.2
+- Configuration refactor
+- Logging
+- Conversation memory
+- Improved architecture
+
+v0.3
+- Tool calling
+- GitHub integration
+- Infrastructure analysis
+
+Technology
+
+Python
+AWS Bedrock
+Terraform
+GitHub
+
+Status
+
+Experimental
