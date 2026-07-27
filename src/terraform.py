@@ -109,7 +109,7 @@ def format_tool_result_for_bedrock(result: dict[str, Any]) -> str:
 
 def _resolve_working_directory(raw_path: Any) -> Path:
     relative_path = str(raw_path or ".")
-    canddiate = (WORKSPACE_ROOT / relative_path).resolve()
+    candidate = (WORKSPACE_ROOT / relative_path).resolve()
     if WORKSPACE_ROOT not in candidate.parents and candidate != WORKSPACE_ROOT:
         raise ValueError("working_directory must stay within the workspace root")
     if not candidate.exists():
