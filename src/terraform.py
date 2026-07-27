@@ -15,7 +15,7 @@ BLOCKED_ARGS = {
     "console",
     "destroy",
     "force-unlock",
-    "improt",
+    "import",
     "login",
     "logout",
     "state",
