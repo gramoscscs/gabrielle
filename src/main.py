@@ -59,7 +59,7 @@ def main():
         output_message = response["output"]["message"]
         messages.append(output_message)
 
-        tool_results = {}
+        tool_results = []
         for content_block in output_message["content"]:
             tool_use = content_block.get("toolUse")
             if not tool_use:
