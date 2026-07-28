@@ -70,7 +70,7 @@ def main():
                 {
                     "toolResult":{
                         "toolUseId": tool_use["toolUseId"],
-                        "content": build_tool_result_content(result),
+                        "content": build_tool_result_content(tool_use["name"], result),
                         "status": "success" if result.get("ok") else "error",
                     }
                 }
